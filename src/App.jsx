@@ -12,7 +12,7 @@ import Footer from './components/Footer.jsx'
 const THEME_KEY = 'portfolio-theme'
 
 function App() {
-  const [theme, setTheme] = useState(() => localStorage.getItem(THEME_KEY) || 'dark')
+  const [theme, setTheme] = useState(() => localStorage.getItem(THEME_KEY) || 'light')
 
   useEffect(() => {
     document.documentElement.setAttribute('data-theme', theme)
