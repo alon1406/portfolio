@@ -1,0 +1,22 @@
+# Node / React
+node_modules/
+
+frontend/
+
+# Build
+dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Env files
+.env
+.env.local
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
