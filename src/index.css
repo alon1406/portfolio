@@ -673,6 +673,11 @@ html { scroll-behavior: smooth; }
   }
   .nav.open { display: flex; }
   .nav-toggle { display: inline-flex; }
+  /* Show all sections immediately on mobile so content always loads */
+  [data-reveal] {
+    opacity: 1;
+    transform: none;
+  }
 }
 /* Layout tweaks: reduced spacing */
 

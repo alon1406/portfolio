@@ -54,7 +54,7 @@ function App() {
           }
         })
       },
-      { threshold: 0.18 }
+      { threshold: 0.08, rootMargin: '0px 0px 80px 0px' }
     )
     revealItems.forEach((el) => observer.observe(el))
   }, [])
