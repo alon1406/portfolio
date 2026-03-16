@@ -3,7 +3,7 @@ function Languages() {
     <section className="panel" id="languages" data-reveal>
       <div className="panel__header">
         <p className="eyebrow">Languages</p>
-        <h2>Communication</h2>
+        <h2>Spoken languages</h2>
       </div>
       <div className="language-cards">
         <div className="language-card fancy">

@@ -10,8 +10,8 @@ function Projects() {
   return (
     <section className="panel" id="projects" data-reveal>
       <div className="panel__header">
-        <p className="eyebrow">Academic Projects</p>
-        <h2>Selected work</h2>
+        <p className="eyebrow">Projects</p>
+        <h2>Academic & self-learning projects</h2>
       </div>
       <div className="projects-list">
         {items.map((item) => (

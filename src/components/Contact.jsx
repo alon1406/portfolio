@@ -1,6 +1,10 @@
 function Contact() {
   return (
     <section className="panel contact" id="contact" data-reveal>
+      <div className="panel__header">
+        <p className="eyebrow">Contact</p>
+        <h2>Reach out</h2>
+      </div>
       <div className="contact-details">
         <p className="contact-detail-line">📞 <a href="tel:+972544352525" className="contact-link">+972-54-435-2525</a></p>
         <p className="contact-detail-line">✉️ <a href="mailto:alonet2468@gmail.com" className="contact-link">alonet2468@gmail.com</a></p>

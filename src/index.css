@@ -1086,6 +1086,13 @@ main {
 .contact-link:hover {
   text-decoration: underline;
 }
+
+.contact-intro {
+  color: var(--muted);
+  margin: 8px 0 16px;
+  font-size: 1rem;
+}
+
 .contact-details {
   text-align: center;
   margin-bottom: 16px;
