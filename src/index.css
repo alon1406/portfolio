@@ -423,6 +423,9 @@ main {
   font-size: 1.1rem;
   color: var(--muted);
   margin-bottom: 18px;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  max-width: 100%;
 }
 
 .ai-line {
@@ -662,6 +665,9 @@ html { scroll-behavior: smooth; }
 
 /* Mobile */
 @media (max-width: 960px) {
+  html {
+    overflow-x: hidden;
+  }
   .hero { grid-template-columns: 1fr; }
   .nav {
     display: none;
@@ -697,8 +703,39 @@ html { scroll-behavior: smooth; }
     font-size: 0.95rem;
   }
   main {
-    padding-left: 2px;
-    padding-right: 2px;
+    padding-left: 16px;
+    padding-right: 16px;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  .site-header {
+    padding-left: 14px;
+    padding-right: 14px;
+    max-width: 100%;
+  }
+  .hero {
+    padding-left: 16px;
+    padding-right: 16px;
+    max-width: 100%;
+  }
+  .hero__content {
+    min-width: 0;
+    max-width: 100%;
+    overflow-wrap: break-word;
+  }
+  .hero__content h1,
+  .hero__content .eyebrow,
+  .hero__content .lede,
+  .hero__content .ai-line {
+    max-width: 100%;
+  }
+  .hero__cta {
+    flex-wrap: wrap;
+    max-width: 100%;
+  }
+  #projects .project-card,
+  #projects .card {
+    overflow: visible;
   }
 }
 /* Layout tweaks: reduced spacing */
@@ -706,6 +743,12 @@ html { scroll-behavior: smooth; }
 /* Less padding for page */
 body {
   padding: 20px 14px 32px;
+}
+
+@media (max-width: 960px) {
+  body {
+    padding: 20px 16px 32px;
+  }
 }
 
 /* Hero: reduced size and spacing below */
