@@ -406,10 +406,20 @@ main {
   100% { transform: translateY(0px); }
 }
 
+.hero__content {
+  min-width: 0;
+  max-width: 100%;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
 .hero__content h1 {
   font-size: clamp(2.25rem, 5vw, 3.25rem);
   margin: 10px 0 14px;
   line-height: 1.1;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  max-width: 100%;
 }
 
 .eyebrow {
@@ -417,6 +427,9 @@ main {
   letter-spacing: 1.4px;
   font-size: 0.85rem;
   color: var(--muted);
+  overflow-wrap: break-word;
+  word-break: break-word;
+  max-width: 100%;
 }
 
 .lede {
@@ -435,12 +448,17 @@ main {
   margin-bottom: 12px;
   text-shadow: 0 6px 24px rgba(45, 227, 194, 0.3);
   transition: opacity 0.3s ease;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  max-width: 100%;
 }
 
 .hero__cta {
   display: flex;
+  flex-wrap: wrap;
   gap: 12px;
   margin-bottom: 18px;
+  max-width: 100%;
 }
 
 .btn {
@@ -486,11 +504,14 @@ main {
   display: grid;
   gap: 12px;
   justify-items: center;
+  min-width: 0;
+  max-width: 100%;
 }
 
 .profile-card {
   width: 100%;
   max-width: 420px;
+  min-width: 0;
   background: linear-gradient(160deg, rgba(19, 27, 39, 0.95), rgba(19, 27, 39, 0.82));
   border-radius: 20px;
   padding: 18px;
@@ -516,6 +537,13 @@ main {
   backface-visibility: hidden;
 }
 
+
+.profile-body {
+  overflow-wrap: break-word;
+  word-break: break-word;
+  min-width: 0;
+  max-width: 100%;
+}
 
 .profile-name {
   font-size: 1.35rem;
@@ -732,6 +760,12 @@ html { scroll-behavior: smooth; }
   .hero__cta {
     flex-wrap: wrap;
     max-width: 100%;
+  }
+  .profile-photo {
+    max-width: 100%;
+    width: min(340px, 100%);
+    height: auto;
+    aspect-ratio: 1;
   }
   #projects .project-card,
   #projects .card {
