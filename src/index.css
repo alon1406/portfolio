@@ -122,6 +122,9 @@ html {
 
 .card__body {
   white-space: pre-line;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  max-width: 100%;
 }
 
 [data-theme="light"] .nav a {
@@ -678,6 +681,25 @@ html { scroll-behavior: smooth; }
     opacity: 1;
     transform: none;
   }
+  /* Projects: stack card content so text wraps and fits the screen */
+  .project-card {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+  }
+  .project-link {
+    align-self: flex-start;
+  }
+  .panel {
+    padding: 18px 16px;
+  }
+  .card__body {
+    font-size: 0.95rem;
+  }
+  main {
+    padding-left: 2px;
+    padding-right: 2px;
+  }
 }
 /* Layout tweaks: reduced spacing */
 
@@ -750,6 +772,7 @@ main {
 
 .project-main {
   flex: 1;
+  min-width: 0;
 }
 
 .project-link {
