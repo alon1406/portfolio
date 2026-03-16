@@ -1,9 +1,7 @@
 import { useEffect, useState } from 'react'
 import Header from './components/Header.jsx'
 import Hero from './components/Hero.jsx'
-import Education from './components/Education.jsx'
 import Projects from './components/Projects.jsx'
-import Experience from './components/Experience.jsx'
 import Skills from './components/Skills.jsx'
 import Languages from './components/Languages.jsx'
 import Contact from './components/Contact.jsx'
@@ -117,9 +115,7 @@ function App() {
       <Header theme={theme} onToggleTheme={toggleTheme} />
       <main>
         <Hero />
-        <Education />
         <Projects />
-        <Experience />
         <Skills />
         <Languages />
         <Contact />

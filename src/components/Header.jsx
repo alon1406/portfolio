@@ -4,9 +4,7 @@ function Header({ theme, onToggleTheme }) {
       <div className="logo">Alon Etos</div>
       <nav className="nav" id="nav">
         <a href="#about">About</a>
-        <a href="#education">Education</a>
         <a href="#projects">Projects</a>
-        <a href="#experience">Experience</a>
         <a href="#skills">Skills</a>
         <a href="#languages">Languages</a>
         <a href="#contact">Contact</a>
