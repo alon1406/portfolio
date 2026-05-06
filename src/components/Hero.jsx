@@ -1,6 +1,6 @@
 import { useEffect } from 'react'
 import profileImage from '../assets/images/Gemini_Generated_Image_rdpjwdrdpjwdrdpj.png'
-import cvPdf from '../assets/documents/Alon_Etos_CV.pdf'
+import cvPdf from '../assets/documents/Alon Etos_CV.pdf'
 
 function Hero() {
   useEffect(() => {
@@ -30,7 +30,7 @@ function Hero() {
         <p className="eyebrow">Software Engineering Student</p>
         <h1>Hi, I'm Alon Etos</h1>
         <p className="lede">
-          Third year Software Engineering student at Afeka College, specializing in AI.
+          Software Engineering student at Afeka College, specializing in AI, with an average grade of 87.
           I love solving problems and building software that helps people in the real world.
           A great example of this is CityScan, a platform I'm developing to help municipalities manage data and report hazards more easily.
           I've built a functional Full Stack demo using React and Node.js to show exactly how the system works, turning the initial idea into a simple and easy to use application.
