@@ -837,6 +837,12 @@ main {
   margin-top: 8px;
 }
 
+/* Dark mode: subtle separator between project cards */
+[data-theme="dark"] #projects .project-card + .project-card {
+  border-top: 1px solid rgba(255, 255, 255, 0.14);
+  padding-top: 14px;
+}
+
 /* Project as clickable card */
 .project-card {
   display: flex;
