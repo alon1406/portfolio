@@ -47,7 +47,7 @@ function Hero() {
             <img src={profileImage} alt="Alon Etos profile photo" />
           </div>
           <div className="profile-body">
-            <p className="profile-name">Alon Etos<span className="profile-info-inline">, 25</span></p>
+            <p className="profile-name">Alon Etos<span className="profile-info-inline">, 26</span></p>
             <p className="profile-location-line">Israel</p>
             <p className="profile-contact-line">📞 <a href="tel:+972544352525" className="contact-link">+972-54-435-2525</a></p>
             <p className="profile-contact-line">✉️ <a href="mailto:alonet2468@gmail.com" className="contact-link">alonet2468@gmail.com</a></p>
