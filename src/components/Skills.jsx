@@ -6,6 +6,8 @@ const SKILL_ICONS = [
   { name: 'CSS', src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg' },
   { name: 'JavaScript', src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg' },
   { name: 'PostgreSQL', src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg' },
+  { name: 'MongoDB', src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg' },
+  { name: 'Supabase', src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/supabase/supabase-original.svg' },
   { name: 'Ubuntu', src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/ubuntu/ubuntu-plain.svg' },
   { name: 'Git', src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg' },
   { name: 'TypeScript', src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg' },
@@ -22,7 +24,7 @@ function Skills() {
       </div>
       <div className="card">
         <div className="card__title">Core Skills</div>
-        <p className="card__body">Python · Java · C · PostgreSQL · Ubuntu · Git · Data Structures · OOP · Algorithms · Operating Systems · HTML · CSS · JavaScript · TypeScript · Node.js · React</p>
+        <p className="card__body">Python · Java · C · PostgreSQL · MongoDB · Supabase · Ubuntu · Git · Data Structures · OOP · Algorithms · Operating Systems · Machine Learning · Parallel & Distributed Computing · MPI · CUDA · HTML · CSS · JavaScript · TypeScript · Node.js · React</p>
       </div>
       <div className="skill-icon-row">
         {SKILL_ICONS.map(({ name, src }) => (

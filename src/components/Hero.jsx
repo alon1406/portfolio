@@ -1,6 +1,5 @@
 import { useEffect } from 'react'
 import profileImage from '../assets/images/Gemini_Generated_Image_rdpjwdrdpjwdrdpj.png'
-import cvPdf from '../assets/documents/Alon Etos_CV.pdf'
 
 function Hero() {
   useEffect(() => {
@@ -38,7 +37,7 @@ function Hero() {
         <p className="ai-line" id="aiLine" />
         <div className="hero__cta">
           <a className="btn primary" href="mailto:alonet2468@gmail.com">Email Me</a>
-          <a className="btn cv" href={cvPdf} download>Download CV</a>
+          <a className="btn cv" href="/cv.pdf" download="Alon-Etos-CV.pdf">Download CV</a>
         </div>
       </div>
       <div className="hero__visual">
