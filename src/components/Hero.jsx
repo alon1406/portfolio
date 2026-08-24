@@ -29,10 +29,9 @@ function Hero() {
         <p className="eyebrow">Software Engineering Student</p>
         <h1>Hi, I'm Alon Etos</h1>
         <p className="lede">
-          Software Engineering student at Afeka College, specializing in AI, with an average grade of 87.
-          I love solving problems and building software that helps people in the real world.
-          A great example of this is CityScan, a platform I'm developing to help municipalities manage data and report hazards more easily.
-          I've built a functional Full Stack demo using React and Node.js to show exactly how the system works, turning the initial idea into a simple and easy to use application.
+          Software Engineering student at Afeka College, specializing in AI, graduating October 2027.
+          I love learning new things and building software that helps people in the real world.
+          Outside of studies I run, train at the gym, ride, travel, and follow football closely.
         </p>
         <p className="ai-line" id="aiLine" />
         <div className="hero__cta">
